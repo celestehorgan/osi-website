@@ -19,7 +19,7 @@ hero:
     for semantic data.
   buttons:
     - text: "View Specification"
-      link: "https://github.com/open-semantic-interchange/OSI/blob/main/core-spec/spec.md"
+      link: "https://github.com/apache/ossie/blob/main/core-spec/spec.md"
       style: primary
       icon: github
     - text: "Get Involved"
@@ -282,11 +282,11 @@ members:
       semantic interchange.
     links:
       - label: "View Repository"
-        url: "https://github.com/open-semantic-interchange/OSI"
+        url: "https://github.com/apache/ossie"
         description: "Browse the spec, raise PRs, and contribute code."
       - label: "Start a Discussion"
-        url: "https://github.com/open-semantic-interchange/OSI/discussions"
+        url: "https://github.com/apache/ossie/discussions"
         description: "Share ideas, propose features, and ask questions."
       - label: "Contribute Tools"
-        url: "https://github.com/open-semantic-interchange/OSI"
+        url: "https://github.com/apache/ossie"
         description: "Build converters, validators, and developer tooling."

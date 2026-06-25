@@ -14,7 +14,7 @@
 # Shows in browser tabs, search engine results, and the site footer.
 # ---------------------------------------------------------------------------
 site_name: Apache Ossie (incubating)
-site_url: https://open-semantic-interchange.org
+site_url: https://ossie.apache.org
 site_description: >-
   Apache Ossie (incubating) is a collaborative, open-source effort
   dedicated to standardizing semantic model exchange across analytics, AI,
@@ -136,7 +136,7 @@ nav:
   - About: "/index.html#about"
   - Community: "/index.html#members"
   - Updates: updates/
-  - GitHub: https://github.com/open-semantic-interchange/OSI
+  - GitHub: https://github.com/apache/ossie
 
 # ---------------------------------------------------------------------------
 # Extra CSS and JavaScript
@@ -164,5 +164,5 @@ extra:
     has yet to be fully endorsed by the ASF.
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/open-semantic-interchange/OSI
+      link: https://github.com/apache/ossie
       name: Ossie on GitHub

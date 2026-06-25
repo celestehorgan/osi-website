@@ -1,6 +1,6 @@
 /*
  * global.css — Shared design tokens, typography, colors, and components
- * used across all pages on the OSI website.
+ * used across all pages on the Ossie website.
  *
  * Loaded before page-specific stylesheets (e.g. home.css) so that tokens
  * and utility classes are available everywhere.
@@ -10,20 +10,28 @@
    CSS Custom Properties (Design Tokens)
    ========================================================================== */
 :root {
-  /* Brand blues (from OSI logo) */
+  /* Brand blues */
   --osi-primary-blue: #0093C7;
   --osi-dark-blue: #004C82;
   --osi-navy: #111827;
   --osi-light-blue: #E0F2FE;
   --osi-ice-blue: #F0F9FF;
 
-  /* Brand green (from OSI logo) */
+  /* Brand green */
   --osi-accent-green: #07A77F;
   --osi-light-green: #ECFDF5;
 
-  /* Accent purple (for gradients, borrowed from reference) */
+  /* Accent purple (for gradients) */
   --osi-accent-purple: #7C3AED;
   --osi-light-purple: #EDE9FE;
+
+  /* Danger red (challenge card, code-dot) */
+  --osi-danger-red: #EF4444;
+  --osi-danger-red-light: #FEE2E2;
+
+  /* Link colors for use on dark backgrounds */
+  --osi-link-on-dark: #60A5FA;
+  --osi-link-on-dark-hover: #93C5FD;
 
   /* Neutrals */
   --osi-white: #FFFFFF;
@@ -94,10 +102,7 @@
    Global Link Styles
    ========================================================================== */
 
-a {
-  text-decoration: none;
-}
-
+a,
 .md-typeset a {
   text-decoration: none;
 }
@@ -147,7 +152,7 @@ h4, .h4, .md-typeset h4 {
 }
 
 h5, .h5, .md-typeset h5 {
-  font-size: 0.875rem;
+  font-size: var(--osi-font-heading-md);
   font-weight: 600;
   font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.4;
@@ -176,7 +181,7 @@ h6, .h6, .md-typeset h6 {
 
 /* Gradient text utility */
 .osi-text-gradient {
-  background: linear-gradient(135deg, var(--osi-primary-blue), var(--osi-accent-purple));
+  background: linear-gradient(135deg, var(--osi-primary-blue), var(--osi-accent-green));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -314,11 +319,6 @@ h6, .h6, .md-typeset h6 {
     border-bottom: 1px solid var(--osi-gray-200);
   }
 
-  .md-nav--primary .md-nav__title[for="__drawer"] {
-    background-color: var(--osi-white) !important;
-    color: var(--osi-gray-900) !important;
-  }
-
   .md-nav--primary .md-nav__title .md-nav__icon {
     color: var(--osi-gray-600) !important;
   }
@@ -354,7 +354,7 @@ h6, .h6, .md-typeset h6 {
 
 
 /* ==========================================================================
-   Bootstrap Button Overrides (OSI brand colors)
+   Bootstrap Button Overrides (Ossie brand colors)
    ========================================================================== */
 
 .btn-primary {

@@ -1,9 +1,9 @@
 /*
- * home.css — Styles for the OSI landing page (overrides/home.html).
+ * home.css — Styles for the Ossie landing page (overrides/home.html).
  *
  * Modern, clean design with white background, subtle gradients,
  * and blue/purple accents. Borrows patterns from tech-forward
- * landing pages while keeping OSI's content and brand identity.
+ * landing pages while staying true to Ossie's brand identity.
  *
  * Global design tokens and Bootstrap overrides live in global.css.
  */
@@ -41,7 +41,7 @@
   right: 15%;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(124, 58, 237, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(7, 167, 127, 0.06) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -65,14 +65,12 @@
   color: var(--osi-gray-500);
   line-height: 1.6;
   font-size: 0.85rem;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.osi-hero .btn-primary {
-  padding: 0.5rem 1.25rem;
-  font-size: 0.8rem;
-}
-
-.osi-hero .btn-outline-secondary {
+.osi-hero .btn {
   padding: 0.5rem 1.25rem;
   font-size: 0.8rem;
 }
@@ -132,23 +130,13 @@
   left: 10%;
   right: 10%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--osi-primary-blue), var(--osi-accent-purple), transparent);
+  background: linear-gradient(90deg, transparent, var(--osi-primary-blue), var(--osi-accent-green), transparent);
   opacity: 0.3;
 }
 
 .osi-code-section h2 {
   color: var(--osi-gray-900);
-}
-
-.osi-code-section h2 {
   font-size: 1.05rem;
-}
-
-.osi-code-section .osi-text-gradient {
-  background: linear-gradient(135deg, var(--osi-primary-blue), var(--osi-accent-purple));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .osi-code-section p {
@@ -221,7 +209,7 @@
   border-radius: 50%;
 }
 
-.osi-code-dot--red { background: #EF4444; }
+.osi-code-dot--red { background: var(--osi-danger-red); }
 .osi-code-dot--yellow { background: #F59E0B; }
 .osi-code-dot--green { background: #22C55E; }
 
@@ -326,7 +314,7 @@
 
 .osi-pitch-card--challenge {
   background: var(--osi-white);
-  border-left: 3px solid #EF4444;
+  border-left: 3px solid var(--osi-danger-red);
 }
 
 .osi-pitch-card--solution {
@@ -387,8 +375,8 @@
 }
 
 .osi-pitch-list__icon--problem {
-  background: #FEE2E2;
-  color: #EF4444;
+  background: var(--osi-danger-red-light);
+  color: var(--osi-danger-red);
 }
 
 .osi-pitch-list__icon--solution {
@@ -628,7 +616,6 @@
 
 .osi-update-card--all {
   background-color: var(--osi-light-blue) !important;
-  border-left: 4px solid var(--osi-primary-blue) !important;
   border-color: transparent !important;
   border-left-color: var(--osi-primary-blue) !important;
 }
@@ -693,22 +680,22 @@
 }
 
 .osi-get-involved a {
-  color: #60A5FA;
+  color: var(--osi-link-on-dark);
   font-weight: 600;
   transition: color 0.15s ease;
 }
 
 .osi-get-involved a:hover {
-  color: #93C5FD;
+  color: var(--osi-link-on-dark-hover);
 }
 
 .osi-get-involved .osi-involvement-card a {
-  color: #60A5FA;
+  color: var(--osi-link-on-dark);
   border-bottom: none;
 }
 
 .osi-get-involved .osi-involvement-card a:hover {
-  color: #93C5FD;
+  color: var(--osi-link-on-dark-hover);
 }
 
 .osi-join-btn {
