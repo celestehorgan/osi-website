@@ -13,7 +13,7 @@ hero:
   title_line1: "The Universal Standard for"
   title_accent: "Semantic Data"
   subtitle: >-
-    The Open Semantic Interchange is an industry-wide specification effort
+    Apache Ossie (incubating) is an industry-wide specification effort
     to standardize how we exchange semantic metadata across analytics, AI
     and BI platforms, providing a vendor neutral, single source of truth
     for semantic data.
@@ -41,7 +41,7 @@ spec_showcase:
   heading: "Write Once, "
   heading_accent: "Query Anywhere."
   description: >-
-    Stop redefining "Revenue" in every dashboard. OSI uses a declarative
+    Stop redefining \"Revenue\" in every dashboard. Ossie uses a declarative
     YAML standard to define metrics, dimensions, and joins — so every
     tool and agent in your stack works from the same source of truth.
   code_filename: "sales_analytics.osi.yaml"
@@ -77,9 +77,9 @@ spec_showcase:
 
 # --- About Section -----------------------------------------------------------
 about:
-  heading: "About OSI"
+  heading: "About Ossie"
   description: >-
-    The Open Semantic Interchange (OSI) is a collaborative, open-source
+    Ossie is a collaborative, open-source
     effort dedicated to standardizing and streamlining semantic model
     definitions across the data analytics, AI, and BI ecosystem.
 
@@ -138,7 +138,7 @@ about:
   # Core Classes — what the spec defines
   core_classes:
     heading: "Core Classes"
-    description: "The OSI specification defines these building blocks:"
+    description: "The Ossie specification defines these building blocks:"
     classes:
       - name: "Semantic Model"
         description: "Top-level container representing a complete model with datasets, relationships, and metrics."
@@ -270,11 +270,11 @@ members:
       - name: "Composability"
         focus: "Enabling semantic models to reference and extend one another"
       - name: "Catalog Integration"
-        focus: "Bridging OSI models with data catalog and governance platforms"
+        focus: "Bridging Ossie models with data catalog and governance platforms"
       - name: "Ontology Representation"
-        focus: "Mapping OSI concepts to formal ontology standards"
+        focus: "Mapping Ossie concepts to formal ontology standards"
       - name: "Model Converters & Developer Tools"
-        focus: "Tooling for importing, exporting, and validating OSI models"
+        focus: "Tooling for importing, exporting, and validating Ossie models"
   community:
     heading: "Get Involved"
     description: >-

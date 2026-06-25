@@ -16,7 +16,7 @@
 site_name: Apache Ossie (incubating)
 site_url: https://open-semantic-interchange.org
 site_description: >-
-  The Open Semantic Interchange (OSI) is a collaborative, open-source effort
+  Apache Ossie (incubating) is a collaborative, open-source effort
   dedicated to standardizing semantic model exchange across analytics, AI,
   and BI platforms.
 copyright: >-
@@ -165,4 +165,4 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/open-semantic-interchange/OSI
-      name: OSI on GitHub
+      name: Ossie on GitHub
