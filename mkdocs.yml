@@ -33,7 +33,7 @@ copyright: >-
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/images/osi-logos/logo-full-horizontal.svg
+  logo: assets/images/ossie-logos/Ossie_Green.svg
   favicon: assets/images/favicon.png
   font:
     text: Inter
